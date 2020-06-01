@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Register
+{% endblock %}
+
+{% block main %}
+    <form action="/register" method="post">
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control" name="username" placeholder="Username" type="text" required>
+        </div>
+        <div class="form-group">
+            <input class="form-control" name="password" placeholder="Password" type="password" required>
+        </div>
+        <div class="form-group">
+            <input class="form-control" name="c_password" placeholder="Confirm Password" type="password" required>
+        </div>
+        <button class="btn btn-primary" type="submit" onclick=register()>Register</button>
+    </form>
+{% endblock %}
+
+{% block script %}
+    <script>
+        function register() {
+            if (document.querySelector('#user').onkeyup === '') {
+                alert("Username is not available");
+            }
+        }
+    </script>
+{% endblock %}
