@@ -26,6 +26,7 @@ Once the user is logged in, the user will reach the home page and be able to do 
 - Logging out
 
 This is the homepage where the user can access "Event Creation" & "Browsing Events" by either clicking buttons or navigating from the navigation bar.
+
 <img src="https://bit.ly/2AGMs8C" alt="Home Page" width="400">
 
 | Create | Explore | Change Password & Logout |
