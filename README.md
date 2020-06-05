@@ -6,6 +6,7 @@ Events On The Way
 Install required modules before running!
 
 Below are sample ways to install some modules. Check out more in the [requirements.txt](requirements.txt).
+
 ```pip install cs50```
 
 ```pip install flask-session```
